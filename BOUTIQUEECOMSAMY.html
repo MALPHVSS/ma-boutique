@@ -3,83 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Boutique en Ligne</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 15px;
-            text-align: center;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        .product {
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin: 20px;
-            text-align: center;
-        }
-        .product img {
-            max-width: 100%;
-            height: auto;
-        }
-        .btn {
-            background-color: #28a745;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Boutique en ligne</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Ma Boutique</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="shop.html">Boutique</a></li>
+                <li><a href="cart.html">Panier</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>Ma Boutique en Ligne</h1>
-</header>
+    <main>
+        <section class="hero">
+            <h2>Bienvenue sur notre boutique en ligne</h2>
+            <p>Découvrez nos produits exclusifs</p>
+            <a href="shop.html" class="btn">Voir la boutique</a>
+        </section>
+    </main>
 
-<nav>
-    <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Produits</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
-
-<section class="product">
-    <h2>Produit 1</h2>
-    <img src="https://via.placeholder.com/150" alt="Produit 1">
-    <p>Prix: 50$</p>
-    <a href="#" class="btn">Acheter</a>
-</section>
-
-<section class="product">
-    <h2>Produit 2</h2>
-    <img src="https://via.placeholder.com/150" alt="Produit 2">
-    <p>Prix: 70$</p>
-    <a href="#" class="btn">Acheter</a>
-</section>
-
-<footer>
-    <p>&copy; 2025 Ma Boutique en Ligne SAMY SHOP</p>
-</footer>
-
+    <footer>
+        <p>&copy; 2025 Ma Boutique. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
